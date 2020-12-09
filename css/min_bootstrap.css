@@ -227,8 +227,8 @@
  
  @media print {
      *,
-     :after,
-     :before {
+      :after,
+      :before {
          color: #000 !important;
          text-shadow: none !important;
          background: 0 0 !important;
@@ -3189,7 +3189,7 @@
      -webkit-appearance: none
  }
  
- @media screen and (-webkit-min-device-pixel-ratio:0) {
+ @media screen and (-webkit-min-pixel-ratio:0) {
      input[type=date].form-control,
      input[type=time].form-control,
      input[type=datetime-local].form-control,
@@ -5118,7 +5118,7 @@
      max-height: 340px
  }
  
- @media (max-device-width:480px) and (orientation:landscape) {
+ @media (max-width:480px) and (orientation:landscape) {
      .navbar-fixed-bottom .navbar-collapse,
      .navbar-fixed-top .navbar-collapse {
          max-height: 200px
