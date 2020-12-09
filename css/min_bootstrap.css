@@ -3096,7 +3096,7 @@
  input[type=checkbox],
  input[type=radio] {
      margin: 4px 0 0;
-     margin-top: 1px9;
+     margin-top: 1px;
      line-height: normal
  }
  
@@ -3244,7 +3244,7 @@
  .radio input[type=radio],
  .radio-inline input[type=radio] {
      position: absolute;
-     margin-top: 4px9;
+     margin-top: 4px;
      margin-left: -20px
  }
  
@@ -4280,7 +4280,7 @@
      margin-left: 2px;
      vertical-align: middle;
      border-top: 4px dashed;
-     border-top: 4px solid9;
+     border-top: 4px solid;
      border-right: 4px solid transparent;
      border-left: 4px solid transparent
  }
@@ -4416,7 +4416,7 @@
      content: "";
      border-top: 0;
      border-bottom: 4px dashed;
-     border-bottom: 4px solid9
+     border-bottom: 4px solid;
  }
  
  .dropup .dropdown-menu,
