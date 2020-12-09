@@ -23,10 +23,14 @@
     <div class="page-container">
 
         <!-- Header - bloc-0 -->
-        <header id="header" role="banner">
+        <header id="header" class="banner">
+            <!--Point de repères ROLE enlevés pour validator HTML
+                   <header id="header" role="banner">-->
             <div class="bloc bgc-white l-bloc " id="bloc-0">
                 <div class="container bloc-sm">
-                    <nav class="navbar row" role="navigation">
+                    <nav class="navbar row">
+                        <!--Point de repères ROLE enlevés pour validator HTML
+                   <nav class="navbar row" role="navigation">-->
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.html">
                                 <img src="img/la-chouette-agence.svg" alt="La chouette agence - Lyon" height="40" />
@@ -54,9 +58,14 @@
         </header>
         <!-- Header - bloc-0 END -->
 
-        <main id="main" role="main">
+        <main id="main">
+            <!--Point de repères ROLE enlevés pour validator HTML
+            <main id="main" role="main">-->
+
             <!-- Section - bloc-6 -->
-            <section role="dialog">
+            <section class="dialog">
+                <!--Point de repères ROLE enlevés pour validator HTML
+                <section role="dialog">-->
                 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
                     <div class="container bloc-lg">
                         <div class="row">
@@ -105,8 +114,10 @@
                                         </label>
                                         <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
                                     </h3>
-                                    <button role="button" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
-						            Envoyer
+                                    <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
+                                    <!--Point de repères ROLE enlevés pour validator HTML
+                                    <button role="button" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">-->
+                                    Envoyer
                                     </button>
                                 </form>
                             </div>
@@ -122,12 +133,14 @@
             <!-- Section - bloc-7 END -->
 
             <!-- ScrollToTop Button -->
-            <a role="button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+            <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
             <!-- ScrollToTop Button END-->
         </main>
 
         <!-- Footer - bloc-8 -->
-        <footer id="footer" role="contentinfo">
+        <footer id="footer">
+            <!--Point de repères ROLE enlevés pour validator HTML
+                    <footer id="footer" role="contentinfo">-->
             <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
                 <div class="container bloc-sm">
                     <div class="row">
@@ -173,9 +186,8 @@
                     </div>
                 </div>
             </div>
-    </div>
-    </footer>
-    <!-- Footer - bloc-8 END -->
+        </footer>
+        <!-- Footer - bloc-8 END -->
 
     </div>
     <!-- Principal conteneur END -->
