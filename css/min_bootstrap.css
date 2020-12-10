@@ -3707,7 +3707,7 @@
  
  a.btn.disabled,
  fieldset[disabled] a.btn {
-     pointer-events: none;
+     /*Removal for SEO optimization : pointer-events: 0;*/
  }
  
  .btn-default {
